@@ -29,8 +29,7 @@ Sequences of proteins from the dataset `D` are located in `./fasta/`.
 
 ### (5) Multiple sequence alignments
 
-The multiple sequence alignments used in the publication and their relative sequences' weights can be downloaded from: DATA_LINK.
-
+The multiple sequence alignments used in the publication and their relative sequences' weights are located in `./msa/`.
 
 ## Conventions and units
 

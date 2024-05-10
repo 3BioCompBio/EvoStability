@@ -21,7 +21,7 @@ For each mutation of the dataset `D`, experimental ΔΔG values, RSA of the muta
 
 ### (3) Sequences
 
-Sequences of of proteins from the dataset `D` are located in `./fasta/`.
+Sequences of proteins from the dataset `D` are located in `./fasta/`.
 
 ### (4) Structures
 
@@ -29,7 +29,7 @@ Sequences of of proteins from the dataset `D` are located in `./fasta/`.
 
 ### (5) Multiple sequence alignments
 
-The multiple sequence alignments used in the publication and their relative sequences weights can be downloaded from: DATA_LINK.
+The multiple sequence alignments used in the publication and their relative sequences' weights can be downloaded from: DATA_LINK.
 
 
 ## Conventions and units

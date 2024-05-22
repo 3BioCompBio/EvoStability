@@ -12,12 +12,12 @@ Here are the **Supplementary Data** for the publication [1] (2024) <https://www.
 
 ### (1) Summary
 
-A per protein summary for the data set `D` is given in `./summary.csv`. For each protein/protein domain, it includes information such as sequence length, depth of the multiple sequence alignment used, and Pearson and Spearman correlation with ΔΔG of the evolutionary scores and ΔΔG predictors.
+A per protein summary for the data set `D` is given in `./summary.csv`. For each protein/protein domain, it includes information such as sequence length, depth of the multiple sequence alignment used, and Pearson and Spearman correlation with ΔΔG of the evolutionary scores and ΔΔG predictions.
 For each protein, the relative data file, sequence files and structure file are referenced by its `protein_id` property.
 
 ### (2) Datasets
 
-For each mutation of the dataset `D`, experimental ΔΔG values, RSA of the mutated residue, evolutionary metrics and ΔΔG predictions are in given in `./datasets/`.
+For each mutation of the dataset `D`, experimental ΔΔG values, RSA of the mutated residue, evolutionary scores (`LOR` and `WLOR`) are in given in `./datasets/`.
 
 ### (3) Sequences
 

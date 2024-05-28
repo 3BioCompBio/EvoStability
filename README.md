@@ -1,6 +1,6 @@
 
 
-# Supplementary Data: TITLE
+# Supplementary Data: Exploring evolution to enhance mutational stability prediction
 
 ## Description
 
@@ -38,4 +38,4 @@ The multiple sequence alignments used in the publication and their relative sequ
 
 ## References
 
-  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). TITLE.
+  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to enhance mutational stability prediction.

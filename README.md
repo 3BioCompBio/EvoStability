@@ -12,20 +12,20 @@ Here are the **Supplementary Data** for the publication [1] (2024) <https://www.
 
 ### (1) Summary
 
-A per protein summary for the data set `D` is given in `./summary.csv`. For each protein/protein domain, it includes information such as sequence length, depth of the multiple sequence alignment used, and Pearson and Spearman correlation with ΔΔG of the evolutionary scores and ΔΔG predictions.
-For each protein, the relative data file, sequence files and structure file are referenced by its `protein_id` property.
+A per-protein summary for datasets `D` (derived from Mega [2]) and `L` (derived from S4038 [3]) are given in `./summary_D.csv` and `./summary_L.csv` respectively. 
+For each protein/protein domain, it includes information such as sequence length, depth of the multiple sequence alignment used, and Pearson and Spearman correlation with ΔΔG of the evolutionary scores and ΔΔG predictions.
 
 ### (2) Datasets
 
-For each mutation of the dataset `D`, experimental ΔΔG values, RSA of the mutated residue, evolutionary scores (`LOR` and `WLOR`) are in given in `./datasets/`.
+For each mutation of the datasets `D` and `L`, experimental ΔΔG values, RSA of the mutated residue and evolutionary scores (`LOR` and `WLOR`) are in given in `./datasets/`.
 
 ### (3) Sequences
 
-Sequences of proteins from the dataset `D` are located in `./fasta/`.
+Sequences of proteins from dataset `D` and `L` are located in `./fasta/`.
 
 ### (4) Structures
 
-3D structures of proteins from the dataset `D` are located in `./pdb/`.
+3D structures of proteins from dataset `D` and `L` are located in `./pdb/`.
 
 ### (5) Multiple sequence alignments
 
@@ -38,4 +38,6 @@ The multiple sequence alignments used in the publication and their relative sequ
 
 ## References
 
-  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to enhance mutational stability prediction.
+  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to enhance mutational stability prediction.  
+  [2] Tsuboyama, Kotaro, et al. "Mega-scale experimental analysis of protein folding stability in biology and design." Nature 620.7973 (2023): 434-444.  
+  [3] Zheng, Feifan, et al. "Assessing computational tools for predicting protein stability changes upon missense mutations using a new dataset." Protein Science 33.1 (2024): e4861.  

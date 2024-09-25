@@ -31,6 +31,10 @@ Sequences of proteins from dataset `D` and `L` are located in `./fasta/`.
 
 The multiple sequence alignments used in the publication and their relative sequences' weights are located in `./msa/`.
 
+### (6) Estimation of $p$-values for pairwise correlation comparisons
+
+File `./p_values.ods` contains all pairwise p-values discussed in Supplementary Section 7 which compares performances measured in Sections 3.1, 3.3 and 3.5.
+
 ## Conventions and units
 
 - All energy values are given in kcal/mol.

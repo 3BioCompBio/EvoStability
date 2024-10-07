@@ -1,6 +1,6 @@
 
 
-# Supplementary Data: Exploring evolution to enhance mutational stability prediction
+# Supplementary Data: Exploring evolution to uncover insights into protein mutational stability
 
 ## Description
 
@@ -42,6 +42,6 @@ File `./p_values.ods` contains all pairwise p-values discussed in Supplementary 
 
 ## References
 
-  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to enhance mutational stability prediction.  
+  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to uncover insights into protein mutational stability.  
   [2] Tsuboyama, Kotaro, et al. "Mega-scale experimental analysis of protein folding stability in biology and design." Nature 620.7973 (2023): 434-444.  
   [3] Zheng, Feifan, et al. "Assessing computational tools for predicting protein stability changes upon missense mutations using a new dataset." Protein Science 33.1 (2024): e4861.  

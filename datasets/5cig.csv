@@ -1,4 +1,4 @@
-protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,WLOR,RSA*LOR,RSA*WLOR
+protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,LORw,RSA*LOR,RSA*LORw
 5cig,5cig_B,B,CB102S,C107S,-2.8,5.45,X,0.219209,3064,16447,1.386859,1.970176,1.3112751845000001,1.862801408
 5cig,5cig_B,B,PB76G,P81G,0.78,62.15,X,0.632011,15776,16447,-5.836949,-5.409207,-2.2092851965,-2.0473848495000007
 5cig,5cig_B,B,PB76R,P81R,0.97,62.15,X,0.632011,15776,16447,-3.854,-3.506631,-1.4587390000000002,-1.3272598335000003

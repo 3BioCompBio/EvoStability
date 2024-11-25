@@ -1,4 +1,4 @@
-protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,WLOR,RSA*LOR,RSA*WLOR
+protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,LORw,RSA*LOR,RSA*LORw
 2src,2src_A,A,VA87A,V6A,1.64,15.35,B,0.089384,94078,1243130,-3.165601,-1.74696,-2.6796812465000004,-1.4788016400000001
 2src,2src_A,A,FA86A,F5A,0.84,17.26,B,0.093732,81028,1243130,1.080314,-0.576992,0.8938518036,-0.4774031808
 2src,2src_A,A,TA85A,T4A,0.64,13.55,X,0.093384,60780,1243130,-1.783911,-0.604662,-1.5421910595000001,-0.522730299

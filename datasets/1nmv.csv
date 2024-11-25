@@ -1,4 +1,4 @@
-protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,WLOR,RSA*LOR,RSA*WLOR
+protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,LORw,RSA*LOR,RSA*LORw
 1nmv,1nmv_A,A,NA30A,N30A,0.47,69.89,X,0.303004,56538,108353,-1.831269,-0.944656,-0.5513950959,-0.28443592160000003
 1nmv,1nmv_A,A,FA25L,F25L,1.37,11.58,B,0.317653,56407,108353,0.753999,-0.642956,0.6666859157999999,-0.5685016951999999
 1nmv,1nmv_A,A,FA25Y,F25Y,-0.22,11.58,B,0.317653,56407,108353,0.271914,-0.123004,0.2404263588,-0.1087601368

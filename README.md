@@ -4,7 +4,7 @@
 
 ## Description
 
-Here are the **Supplementary Data** for the publication [1] (2024) <https://www.biorxiv.org/content/10.1101/2024.05.28.596203v1>.
+Here are the **Supplementary Data** for the publication [1] (2024) <https://www.biorxiv.org/content/10.1101/2024.05.28.596203v2>.
 
 **Authors**: Pauline Hermans, Matsvei Tsishyn, Martin Schwersensky, Marianne Rooman, Fabrizio Pucci
 
@@ -17,7 +17,7 @@ For each protein/protein domain, it includes information such as sequence length
 
 ### (2) Datasets
 
-For each mutation of the datasets `D` and `L`, experimental ΔΔG values, RSA of the mutated residue and evolutionary scores (`LOR` and `WLOR`) are in given in `./datasets/`.
+For each mutation of the datasets `D` and `L`, experimental ΔΔG values, RSA of the mutated residue and evolutionary scores (`LOR` and `LORw`) are in given in `./datasets/`.
 
 ### (3) Sequences
 
@@ -33,7 +33,11 @@ The multiple sequence alignments used in the publication and their relative sequ
 
 ### (6) Estimation of $p$-values for pairwise correlation comparisons
 
-File `./p_values.ods` contains all pairwise p-values discussed in Supplementary Section 7 which compares performances measured in Sections 3.1, 3.3 and 3.5.
+File `./p_values.ods` contains all pairwise p-values discussed in Supplementary Section 3 which compares performances measured in Sections 3.1, 3.3 and 3.6.
+
+### (7) Statistical analysis
+
+Some Python scripts to replicate the statistical analyses of the paper are provided in `./analysis/`.
 
 ## Conventions and units
 

@@ -1,4 +1,4 @@
-protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,WLOR,RSA*LOR,RSA*WLOR
+protein_id,sequence_id,chain,mutation_pdb,mutation_fasta,DDG,RSA,secondary_structure,CI,msa_depth_local,msa_depth_total,LOR,LORw,RSA*LOR,RSA*LORw
 2lzm,2lzm_A,A,RA96V,R96V,2.4,29.53,A,0.382127,3706,3882,-3.370607,-2.773844,-2.3752667529,-1.9547278667999999
 2lzm,2lzm_A,A,RA96E,R96E,2.5,29.53,A,0.382127,3706,3882,-1.964824,-1.722446,-1.3846114727999999,-1.2138076962
 2lzm,2lzm_A,A,RA96S,R96S,2.6,29.53,A,0.382127,3706,3882,-3.214626,-2.62041,-2.2653469422,-1.8466029270000002

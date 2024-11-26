@@ -1,10 +1,14 @@
 
+"""
+Small CSV management package.
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 import os.path
 import csv
 from typing import Union, Tuple, List, Dict, Callable
 import numpy as np
-
 
 # Main -------------------------------------------------------------------------
 class CSV:
@@ -476,50 +480,3 @@ def stringify_float(input, round_digit: int=4) -> str:
         return str_float
     else:
         return str(input)
-
-
-# Usage Example ----------------------------------------------------------------
-
-if __name__ == "__main__":
-
-    # Generate 'decoy.csv' file to test the CSV class
-    decoy_path1 = "/tmp/decoy1.csv"
-    decoy_path2 = "/tmp/decoy2.csv"
-    decoy_str = "\n".join([
-        "mut_id;pdb_name;mutation_pdb;mutation_fasta;DDG;RSA;sec_str;PoP;PoPsym",
-        "DM-82310;1a0n_B_84-151_V148A;VA1A;V1A;-0.0333538840306446;97.59;C;0.08;-0.24",
-        "DM-82319;1a0n_B_84-151_V148A;VA1C;V1C;-0.6473475345757804;97.59;C;-0.01;-0.43",
-        "DM-82305;1a0n_B_84-151_V148A;VA1D;V1D;0.0974734131192862;97.59;C;0.2;0.22",
-        "DM-82310;1a0n_B_84-151_V148A;VA1E;V1E;???;97.59;C;0.13;-0.27",
-    ])
-    with open(decoy_path1, "w") as fs:
-        fs.write(decoy_str)
-
-    # Read and Write with CSV()
-    print("\nRead dataset:")
-    data = CSV().read(decoy_path1, col_types={"DDG": float, "RSA": float, "PoP": float, "PoPsym": float}, col_default={"DDG": "XXX"})
-    data.show()
-
-    # Modify
-    print("\nModify dataset:")
-    data.add_col("id", [1, 2, 3, 4])
-    data.add_empty_col("property1")
-    data.remove_col("PoPsym")
-    data.rename_col("pdb_name", "name")
-    data.order_header(["id", "name"])
-    data.add_entry(data[0])
-    data.filter(lambda e: e["DDG"] != "XXX", do_print=True, filter_name="Missing DDG values")
-
-    X, y = data.get_Xy(["PoP", "RSA"], "DDG")
-    print(X.shape, y.shape)
-
-    print("\nWrite dataset (make a copy):")
-    data.write(decoy_path2)
-
-    print("\nRead copy dataset:")
-    data = CSV().read(decoy_path2, col_types={"DDG": float, "RSA": float, "PoP": float})
-    data.show()
-
-    # Delete created files
-    os.remove(decoy_path1)
-    os.remove(decoy_path2)

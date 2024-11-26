@@ -1,4 +1,9 @@
 
+"""
+Small MSA management package.
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 #import argparse
 import os

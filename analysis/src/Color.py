@@ -1,4 +1,9 @@
 
+"""
+Small color management package.
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 from typing import Union, Self, Tuple, List
 import random

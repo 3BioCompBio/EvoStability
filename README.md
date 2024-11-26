@@ -17,7 +17,7 @@ For each protein/protein domain, it includes information such as sequence length
 
 ### (2) Datasets
 
-For each mutation of the datasets `D` and `L`, experimental ΔΔG values, RSA of the mutated residue and evolutionary scores (`LOR` and `LORw`) are in given in `./datasets/`.
+For each mutation of the datasets `D` and `L`, experimental ΔΔG values, RSA of the mutated residue and predictions of evolutionary models are in given in `./datasets/`.
 
 ### (3) Sequences
 

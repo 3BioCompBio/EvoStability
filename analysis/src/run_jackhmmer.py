@@ -1,4 +1,9 @@
 
+"""
+Python wrapped for constructing MSA with JackHMMER
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 import os
 import uuid

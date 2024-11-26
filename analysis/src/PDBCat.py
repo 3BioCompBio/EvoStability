@@ -1,4 +1,9 @@
 
+"""
+Python wrapped for MuSiC -cat function
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 import os
 import shutil

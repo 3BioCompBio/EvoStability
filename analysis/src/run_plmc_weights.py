@@ -1,4 +1,9 @@
 
+"""
+Python wrapped for assign weights to sequence from MSA using plmc
+Author: Matsvei Tsishyn
+"""
+
 # Imports ----------------------------------------------------------------------
 import os
 from shutil import which

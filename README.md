@@ -4,7 +4,7 @@
 
 ## Description
 
-Here are the **Supplementary Data** for the publication [1] (2024) <https://www.biorxiv.org/content/10.1101/2024.05.28.596203v2>.
+Here are the **Supplementary Data** for the [publication](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msae267/7934942) [1] (2024).
 
 **Authors**: Pauline Hermans, Matsvei Tsishyn, Martin Schwersensky, Marianne Rooman, Fabrizio Pucci
 
@@ -46,6 +46,6 @@ Some Python scripts to replicate the statistical analyses of the paper are provi
 
 ## References
 
-  [1] Hermans P., Tsishyn M., Schwersensky M, Rooman, M. & Pucci, F. (2024). Exploring evolution to uncover insights into protein mutational stability.  
+  [1] Hermans, P., Tsishyn, M., Schwersensky, M., Rooman, M., & Pucci, F. "Exploring evolution to uncover insights into protein mutational stability". Molecular Biology and Evolution (2024), msae267.  
   [2] Tsuboyama, Kotaro, et al. "Mega-scale experimental analysis of protein folding stability in biology and design." Nature 620.7973 (2023): 434-444.  
   [3] Zheng, Feifan, et al. "Assessing computational tools for predicting protein stability changes upon missense mutations using a new dataset." Protein Science 33.1 (2024): e4861.  
